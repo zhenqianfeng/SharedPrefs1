@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         EditText productTxt = findViewById(R.id.edit_product);
         RatingBar rating = findViewById(R.id.ratingBar);
 
-        SharedPreferences sharedpreferences = getSharedPreferences("com.prefmgr.demo",
+        SharedPreferences sharedpreferences = getSharedPreferences("com.prefmgr.demo2",
                 Context.MODE_PRIVATE);
 
         if (sharedpreferences.contains("username")){
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
                 EditText productTxt = findViewById(R.id.edit_product);
                 RatingBar rating = findViewById(R.id.ratingBar);
 
-                SharedPreferences sharedpreferences = getSharedPreferences("com.prefmgr.demo",
+                SharedPreferences sharedpreferences = getSharedPreferences("com.prefmgr.demo2",
                         Context.MODE_PRIVATE);
 
                 if (sharedpreferences.contains("username")){
